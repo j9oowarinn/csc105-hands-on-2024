@@ -1,0 +1,50 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.input-area {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 60%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn, .edit-btn, .remove-btn {
+  margin-left: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn { background-color: #28a745; color: white; }
+.edit-btn { background-color: #007bff; color: white; }
+.remove-btn { background-color: #dc3545; color: white; }
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background: #f8f9fa;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bought {
+  background: #d4edda;
+  text-decoration: line-through;
+}
